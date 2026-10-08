@@ -1,0 +1,16 @@
+/* =====================================================
+   MAIN LAYOUT (shared by every dashboard/page)
+===================================================== */
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+  padding: 25px;
+  box-sizing: border-box;
+}
